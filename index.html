@@ -1,1 +1,274 @@
+<!DOCTYPE html>
 
+<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Discover Sri Lanka | Travel & Explore</title>
+
+<meta name="description"
+      content="Discover Sri Lanka's famous landmarks, beautiful beaches, wildlife, and cultural attractions.">
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="#" class="logo">Lanka<span>Explore</span></a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">THE PEARL OF THE INDIAN OCEAN</p>
+
+            <h1>Discover the Beauty of Sri Lanka</h1>
+
+            <p>
+                Explore ancient kingdoms, golden beaches,
+                breathtaking mountains, and incredible wildlife.
+            </p>
+
+            <a href="#destinations" class="button">
+                Explore Destinations
+            </a>
+        </div>
+    </section>
+
+    <section class="destinations" id="destinations">
+        <div class="section-heading">
+            <p class="eyebrow">YOUR NEXT ADVENTURE</p>
+            <h2>Explore Famous Destinations</h2>
+
+            <p>
+                Discover some of the most beautiful places
+                on the island.
+            </p>
+        </div>
+
+        <input
+            type="search"
+            id="searchInput"
+            placeholder="Search attractions..."
+            aria-label="Search tourist attractions"
+        >
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-category="culture">
+                Culture
+            </button>
+
+            <button class="filter-btn" data-category="nature">
+                Nature
+            </button>
+
+            <button class="filter-btn" data-category="beach">
+                Beaches
+            </button>
+        </div>
+
+        <div class="destination-grid">
+
+            <article class="destination-card"
+                     data-category="culture">
+                <img
+                    src="https://images.unsplash.com/photo-1588598198321-9735fd5d9b9a?auto=format&fit=crop&w=900&q=80"
+                    alt="Ancient rock fortress landscape"
+                    loading="lazy"
+                >
+
+                <div class="card-content">
+                    <span class="category">CULTURE</span>
+                    <h3>Sigiriya Rock Fortress</h3>
+
+                    <p>
+                        Discover an extraordinary ancient
+                        fortress rising above the surrounding
+                        forests.
+                    </p>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Sigiriya+Sri+Lanka"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Location ↗
+                    </a>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                     data-category="nature">
+                <img
+                    src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80"
+                    alt="Wildlife in a natural landscape"
+                    loading="lazy"
+                >
+
+                <div class="card-content">
+                    <span class="category">WILDLIFE</span>
+                    <h3>Yala National Park</h3>
+
+                    <p>
+                        Experience wildlife, natural habitats,
+                        and exciting safari adventures.
+                    </p>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Yala+National+Park+Sri+Lanka"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Location ↗
+                    </a>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                     data-category="beach">
+                <img
+                    src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80"
+                    alt="Ocean waves along a beautiful coast"
+                    loading="lazy"
+                >
+
+                <div class="card-content">
+                    <span class="category">BEACH</span>
+                    <h3>Mirissa Beach</h3>
+
+                    <p>
+                        Enjoy a tropical coastal escape with
+                        sandy shores and beautiful ocean views.
+                    </p>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Mirissa+Beach+Sri+Lanka"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Location ↗
+                    </a>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                     data-category="culture">
+                <img
+                    src="https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&w=900&q=80"
+                    alt="Buddhist temple architecture"
+                    loading="lazy"
+                >
+
+                <div class="card-content">
+                    <span class="category">HERITAGE</span>
+                    <h3>Temple of the Tooth</h3>
+
+                    <p>
+                        Visit a sacred Buddhist temple in
+                        the historic city of Kandy.
+                    </p>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Temple+of+the+Tooth+Kandy+Sri+Lanka"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Location ↗
+                    </a>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                     data-category="nature">
+                <img
+                    src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80"
+                    alt="Mountain peaks and green landscapes"
+                    loading="lazy"
+                >
+
+                <div class="card-content">
+                    <span class="category">MOUNTAINS</span>
+                    <h3>Ella</h3>
+
+                    <p>
+                        Explore scenic mountain views, hiking
+                        trails, and lush green surroundings.
+                    </p>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Ella+Sri+Lanka"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Location ↗
+                    </a>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                     data-category="culture">
+                <img
+                    src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80"
+                    alt="Historic South Asian architectural landmark"
+                    loading="lazy"
+                >
+
+                <div class="card-content">
+                    <span class="category">ANCIENT CITY</span>
+                    <h3>Anuradhapura</h3>
+
+                    <p>
+                        Discover ancient Buddhist monuments,
+                        historic ruins, and sacred sites.
+                    </p>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Anuradhapura+Sri+Lanka"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Location ↗
+                    </a>
+                </div>
+            </article>
+
+        </div>
+
+        <p id="noResults" hidden>
+            No destinations found. Try another search.
+        </p>
+    </section>
+
+    <section class="about" id="about">
+        <h2>Experience the Magic of Sri Lanka</h2>
+
+        <p>
+            From ancient heritage sites to tropical coastlines
+            and beautiful mountain landscapes, Sri Lanka offers
+            unforgettable experiences for every traveler.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>
+        © <span id="year"></span> LankaExplore.
+        Discover Sri Lanka responsibly.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+
+</body> </html>
